@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-image: url("http://1.bp.blogspot.com/-12At7BD35e8/Tyl8pZ4OodI/AAAAAAAAFxw/V0cIvmqa9t8/s1600/starsky+3.jpg"); 
+	background-position: top center; 
+	background-repeat: repeat; 
+	background-attachment: fixed; 
+	overflow: hidden;
+}
+
+span.blue-pug {
+	color: #B6D6CE;
+}
+
+span.blue-corgi {
+	color: #B6D6CE;
+}
+
+h1.title {
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 3em;
+	color: #B6D6CE;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.whos-turn {
+	text-align: center;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+main {
+	display: block;
+	margin: 0 auto;
+	width: 850px;
+}
+
+.col_1, .col_2, .col_3 {
+	padding-top: 35px;
+	width: 280px;
+	float: left;
+}
+
+.box {
+	width: 100%;
+	height: 280px;
+	cursor: pointer;
+}
+.box_1, .box_2, .box_4, .box_5 {
+	border-right:2px dotted #b3cfc6;
+	border-bottom:2px dotted #b3cfc6;
+}
+
+.box_3, .box_6 {
+	border-right: 2px dotted #b3cfc6;
+}
+
+.box_7, .box_8 {
+	border-bottom: 2px dotted #b3cfc6;
+}
+
+img.imgSize {
+	display: block;
+	width: 65%;
+	height: 65%;
+	padding-top: 50px;
+	margin:auto;
+}
+
+.modal h1 {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 2em;
+	color: black;
+}
+
+.modal button {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 0.95em;
+	text-transform: uppercase;
+	width: 150px;
+	height: 60px;
+}
